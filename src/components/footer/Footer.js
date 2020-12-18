@@ -41,15 +41,15 @@ const Footer = () => {
                 <h3>RRSS</h3>
                 <div className="footer__networks__item">
 
-                    <FooterNetworksLink href="">
+                    <FooterNetworksLink target="_blank" href="https://www.facebook.com/">
                         <SVGFacebook size={20} />
                     </FooterNetworksLink>
 
-                    <FooterNetworksLink href="">
+                    <FooterNetworksLink target="_blank" href="https://www.linkedin.com/">
                         <SVGLinkedin size={20} />
                     </FooterNetworksLink>
 
-                    <FooterNetworksLink href="">
+                    <FooterNetworksLink target="_blank" href="https://www.instagram.com/">
                         <SVGInstagram size={20} />
                     </FooterNetworksLink>
 

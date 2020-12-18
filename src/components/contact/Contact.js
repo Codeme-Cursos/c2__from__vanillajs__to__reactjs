@@ -2,6 +2,7 @@ import SVGEmail from "../icons/SVGEmail"
 import SVGFile from "../icons/SVGFile"
 import SVGPhone from "../icons/SVGPhone"
 import ContactLink from "./ContactLink"
+import CV from "../../assets/cv.pdf"
 
 const Contact = () => {
     return (
@@ -12,15 +13,15 @@ const Contact = () => {
             </div>
             <div className="contact__data">
 
-                <ContactLink href="" text="Email">
+                <ContactLink href="mailto:your@email.cl" text="Email">
                     <SVGEmail size="16" />
                 </ContactLink>
 
-                <ContactLink href="" text="Teléfono">
+                <ContactLink href="tel:+5690000000" text="Teléfono">
                     <SVGPhone size="16" />
                 </ContactLink>
 
-                <ContactLink href="" text="Curriculum Vitae">
+                <ContactLink target="_blank" href={CV} text="Curriculum Vitae">
                     <SVGFile size="16" />
                 </ContactLink>
 

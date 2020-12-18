@@ -1,8 +1,8 @@
 import React from 'react'
 
-const FooterNetworksLink = ({ href, children }) => {
+const FooterNetworksLink = ({ href, children, target="_self" }) => {
     return (
-        <a href={href}>
+        <a href={href} target={target}>
             {children}
         </a>
     )
